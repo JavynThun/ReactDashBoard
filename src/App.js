@@ -11,6 +11,7 @@ import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
 import 'bootstrap-4-grid/css/grid.min.css';
 import { DonutChartContainer } from './components/DonutChartContainer';
+import { BarChartContainer } from './components/BarChartContainer';
 
 class App extends Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class App extends Component {
           <div className="app-container container" ref={(el) => this.appContainer = el}>
             <div className="row">
               <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <h1>Sales | Q4 2018</h1>
+                <h1>Account details </h1>
               </div>
               <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons-right">
                 <Button primary={true} onClick={this.handleShare}>Share</Button>
@@ -66,7 +67,7 @@ class App extends Component {
                     </div>
                   </div>
                   <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <h4>Bar Chart Container</h4>
+                    <BarChartContainer />
                   </div>
                 </div>
                 <div className="row">
