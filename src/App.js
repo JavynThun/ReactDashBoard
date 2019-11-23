@@ -39,10 +39,10 @@ class App extends Component {
         <div className="bootstrap-wrapper">
           <div className="app-container container" ref={(el) => this.appContainer = el}>
             <div className="row">
-              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <h1>Account details </h1>
+              <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <h1>Your Financial Overview  January 2020</h1>
               </div>
-              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons-right">
+              <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 buttons-right">
                 <Button primary={true} onClick={this.handleShare}>Share</Button>
                 <Button onClick={this.handlePDFExport}>Export to PDF</Button>
               </div>
@@ -58,9 +58,10 @@ class App extends Component {
                   </div>
                   <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
                     <div className="percentage-container">
-                      <span className="percentage-number">94</span>
+                      <span className="percentage-number">-6</span>
                       <span className="percentage-sign">%</span>
-                      <p>CUSTOMER SATISFACTION</p>
+                      <p>BALANCE DIFFERENCE</p>
+                      <h6>Dec 2019 - Jan 2020</h6>
                     </div>
                     <div className="percentage-container">
                       <span className="percentage-number">89</span>

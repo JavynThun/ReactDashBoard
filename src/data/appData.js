@@ -6,7 +6,7 @@ export const donutChartData = [
     { 'accountType': 'Other', 'percent': 10 }
 ];
 
-export const barChartQ4Months = ['October', 'November', 'December'];
+export const barChartQ4Months = ['November', 'December', 'January'];
 export const barChartMonthlyPercentages = [
     { name: 'Savings', data: [14, 16, 19.5] },
     { name: 'Investments', data: [24, 23.5, 24.5] },
