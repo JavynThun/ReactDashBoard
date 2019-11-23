@@ -12,6 +12,7 @@ import './App.css';
 import 'bootstrap-4-grid/css/grid.min.css';
 import { DonutChartContainer } from './components/DonutChartContainer';
 import { BarChartContainer } from './components/BarChartContainer';
+import { GridContainer } from './components/GridContainer';
 
 class App extends Component {
   constructor(props) {
@@ -72,7 +73,7 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h4>Grid Container</h4>
+                    <GridContainer />
                   </div>
                 </div>
               </div>
