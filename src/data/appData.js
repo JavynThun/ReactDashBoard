@@ -197,3 +197,44 @@ export const gridData = [
         "FirstOrderedOn": new Date(1996, 8, 5)
     }
   ];
+
+  export const panelBarData = {
+    'teammates': [
+      {
+        firstName: 'Andrew',
+        lastName: 'Fuller',
+        position: 'Team Lead'
+      }, {
+        firstName: 'Nancy',
+        lastName: 'Leaver',
+        position: 'Sales Associate'
+      }, {
+        firstName: 'Robert',
+        lastName: 'King',
+        position: 'Business System Analyst'
+      }, {
+        firstName: 'Laurence',
+        lastName: 'Lee',
+        position: 'Accounting Manager'
+      }, {
+        firstName: 'Mary',
+        lastName: 'Saveley',
+        position: 'Sales Agent'
+      }, {
+        firstName: 'Hari',
+        lastName: 'Kumar',
+        position: 'Sales Manager'
+      }
+    ],
+    'salesReports': [
+      {
+        title: 'Q1 Report',
+      }, {
+        title: 'Q2 Report',
+      }, {
+        title: 'Q3 Report',
+      }, {
+        title: 'Q4 Report',
+      }
+    ]
+  }
