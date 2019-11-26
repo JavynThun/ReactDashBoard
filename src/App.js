@@ -77,6 +77,7 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h2>Transaction History</h2>
                     <GridContainer />
                   </div>
                 </div>
