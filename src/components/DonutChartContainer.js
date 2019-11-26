@@ -11,7 +11,7 @@ import {
 
 import { donutChartData } from '../data/appData';
 
-const donutCenterRenderer = () => (<span><h3>Accounts</h3> </span>);
+const donutCenterRenderer = () => (<span><h3>Expenditure</h3> </span>);
 /* This function's outputted string determines the label contents */
 const labelTemplate = (e) => (e.category + '\n'  + (e.percentage*100) +'%');
 

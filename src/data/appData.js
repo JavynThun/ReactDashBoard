@@ -11,19 +11,19 @@ export const barChartMonthlyPercentages = [
     { name: 'Savings', data: [14, 16, 19.5] },
     { name: 'Investments', data: [24, 23.5, 24.5] },
     { name: 'Shared', data: [12.5, 12.5, 14] },
-    { name: 'MultiCurrency/Poultry', data: [16, 18, 17] },
+    { name: 'MultiCurrency', data: [16, 18, 17] },
     { name: 'Other', data: [7, 12, 11] },
 ];
 
 export const gridData = [
     {
-        "ProductID": 1,
-        "ProductName": "Chai",
+        "TransactionID": 1,
+        "AccountName": "Savings",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "10 boxes x 20 bags",
-        "UnitPrice": 18,
-        "UnitsInStock": 39,
+        "Amount": "18.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 0,
         "ReorderLevel": 10,
         "Discontinued": false,
@@ -32,16 +32,16 @@ export const gridData = [
             "CategoryName": "Beverages",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
-        "FirstOrderedOn": new Date(1996, 8, 20)
+        "TransactionDate": "13-12-2019 13:10"
     },
     {
-        "ProductID": 2,
-        "ProductName": "Chang",
+        "TransactionID": 2,
+        "AccountName": "Investments",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "24 - 12 oz bottles",
-        "UnitPrice": 19,
-        "UnitsInStock": 17,
+        "Amount": "-19.00",
+        "Action": "Withdraw",
         "UnitsOnOrder": 40,
         "ReorderLevel": 25,
         "Discontinued": false,
@@ -50,16 +50,16 @@ export const gridData = [
             "CategoryName": "Beverages",
             "Description": "Soft drinks, coffees, teas, beers, and ales"
         },
-        "FirstOrderedOn": new Date(1996, 7, 12)
+        "TransactionDate": "13-12-2019 9:40"
     },
     {
-        "ProductID": 3,
-        "ProductName": "Aniseed Syrup",
+        "TransactionID": 3,
+        "AccountName": "Shared",
         "SupplierID": 1,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 550 ml bottles",
-        "UnitPrice": 10,
-        "UnitsInStock": 13,
+        "Amount": "10.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 70,
         "ReorderLevel": 25,
         "Discontinued": false,
@@ -68,16 +68,16 @@ export const gridData = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 8, 26)
+        "TransactionDate": "11-12-2019 16:13"
     },
     {
-        "ProductID": 4,
-        "ProductName": "Chef Anton's Cajun Seasoning",
+        "TransactionID": 4,
+        "AccountName": "MultiCurrency",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "48 - 6 oz jars",
-        "UnitPrice": 22,
-        "UnitsInStock": 53,
+        "Amount": "22.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
         "Discontinued": false,
@@ -86,16 +86,16 @@ export const gridData = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 9, 19)
+        "TransactionDate": "10-12-2019 15:56"
     },
     {
-        "ProductID": 5,
-        "ProductName": "Chef Anton's Gumbo Mix",
+        "TransactionID": 5,
+        "AccountName": "MultiCurrency",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "36 boxes",
-        "UnitPrice": 21.35,
-        "UnitsInStock": 0,
+        "Amount": "-21.35",
+        "Action": "Withdraw",
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
         "Discontinued": true,
@@ -104,16 +104,16 @@ export const gridData = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 7, 17)
+        "TransactionDate": "10-12-2019 09:27"
     },
     {
-        "ProductID": 6,
-        "ProductName": "Grandma's Boysenberry Spread",
+        "TransactionID": 6,
+        "AccountName": "Shared",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 8 oz jars",
-        "UnitPrice": 25,
-        "UnitsInStock": 120,
+        "Amount": "25.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 0,
         "ReorderLevel": 25,
         "Discontinued": false,
@@ -122,16 +122,16 @@ export const gridData = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 9, 19)
+        "TransactionDate": "08-12-2019 20:14"
     },
     {
-        "ProductID": 7,
-        "ProductName": "Uncle Bob's Organic Dried Pears",
+        "TransactionID": 7,
+        "AccountName": "Savings",
         "SupplierID": 3,
         "CategoryID": 7,
         "QuantityPerUnit": "12 - 1 lb pkgs.",
-        "UnitPrice": 30,
-        "UnitsInStock": 15,
+        "Amount": "30.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 0,
         "ReorderLevel": 10,
         "Discontinued": false,
@@ -140,16 +140,16 @@ export const gridData = [
             "CategoryName": "Produce",
             "Description": "Dried fruit and bean curd"
         },
-        "FirstOrderedOn": new Date(1996, 7, 22)
+        "TransactionDate": "08-12-2019 16:41"
     },
     {
-        "ProductID": 8,
-        "ProductName": "Northwoods Cranberry Sauce",
+        "TransactionID": 8,
+        "AccountName": "Other",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 12 oz jars",
-        "UnitPrice": 40,
-        "UnitsInStock": 6,
+        "Amount": "-40.00",
+        "Action": "Withdraw",
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
         "Discontinued": false,
@@ -158,16 +158,16 @@ export const gridData = [
             "CategoryName": "Condiments",
             "Description": "Sweet and savory sauces, relishes, spreads, and seasonings"
         },
-        "FirstOrderedOn": new Date(1996, 11, 1)
+        "TransactionDate": "08-12-2019 08:35"
     },
     {
-        "ProductID": 9,
-        "ProductName": "Mishi Kobe Niku",
+        "TransactionID": 9,
+        "AccountName": "Savings",
         "SupplierID": 4,
         "CategoryID": 6,
         "QuantityPerUnit": "18 - 500 g pkgs.",
-        "UnitPrice": 97,
-        "UnitsInStock": 29,
+        "Amount": "-97.00",
+        "Action": "withdraw",
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
         "Discontinued": true,
@@ -176,16 +176,16 @@ export const gridData = [
             "CategoryName": "Meat/Poultry",
             "Description": "Prepared meats"
         },
-        "FirstOrderedOn": new Date(1997, 1, 21)
+        "TransactionDate": "05-12-2019 17:51"
     },
     {
-        "ProductID": 10,
-        "ProductName": "Ikura",
+        "TransactionID": 10,
+        "AccountName": "Other",
         "SupplierID": 4,
         "CategoryID": 8,
         "QuantityPerUnit": "12 - 200 ml jars",
-        "UnitPrice": 31,
-        "UnitsInStock": 31,
+        "Amount": "31.00",
+        "Action": "Deposit",
         "UnitsOnOrder": 0,
         "ReorderLevel": 0,
         "Discontinued": false,
@@ -194,7 +194,7 @@ export const gridData = [
             "CategoryName": "Seafood",
             "Description": "Seaweed and fish"
         },
-        "FirstOrderedOn": new Date(1996, 8, 5)
+        "TransactionDate": "04-12-2019 22:44"
     }
   ];
 
@@ -238,3 +238,12 @@ export const gridData = [
       }
     ]
   }
+
+  export const lineChart7Months = ['July', 'August', 'September', 'October', 'November', 'December', 'January'];
+  export const lineChartData = [
+    { name: 'Savings', data: [123, 276, 310, 212, 240, 156, 98] },
+    { name: 'Investments', data: [165, 210, 287, 144, 190, 167, 212]},
+    { name: 'Shared', data: [56, 140, 195, 46, 123, 78, 95]},
+    { name: 'MultiCurrency/Poultry', data: [88, 190, 237, 148, 156, 108, 99] },
+    { name: 'Other', data: [78, 112, 211, 156, 266, 312, 289] },
+];
