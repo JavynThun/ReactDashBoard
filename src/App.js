@@ -56,6 +56,7 @@ class App extends Component {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div className="row">
                   <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <h2>Expenditure</h2>
                     <DonutChartContainer />
                   </div>
                   {/* <div className="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
@@ -72,6 +73,7 @@ class App extends Component {
                     </div>
                   </div> */}
                   <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <h2>Expenditure per month</h2>
                     <BarChartContainer />
                   </div>
                 </div>
